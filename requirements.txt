@@ -1,0 +1,9 @@
+# Core ADK dependencies
+google-adk>=0.1.0
+google-genai>=0.1.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Standard library dependencies (included for clarity)
+# json, os, sys, datetime, typing are built-in

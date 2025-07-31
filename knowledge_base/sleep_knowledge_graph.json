@@ -1,0 +1,883 @@
+{
+  "problems": {
+    "split_nights": {
+      "definition": "A prolonged wakeful period in the middle of the night lasting 1.5-2 hours. Child is generally quiet and content but unable to return to sleep despite usual strategies. Chronic split nights occur at least 3-4 times per week for more than 3 weeks. Distinct from temporary developmental wakeful periods which typically resolve within 2 weeks",
+      "symptoms": [
+        "Wakeful period lasting 1.5-2 hours in middle of night",
+        "Child quiet and content but unable to sleep",
+        "Occurs 3-4 times per week for 3+ weeks"
+      ],
+      "causes": {
+        "expecting_more_sleep": "Expecting more sleep than needed: Babies have unique sleep requirements (4-11 month olds need 10-18 hours in 24 hours)",
+        "overtiredness": "Overtiredness: Cortisol buildup from staying awake beyond natural sleep rhythms can disrupt sleep cycles",
+        "environmental": "Environmental factors: Most commonly light and temperature issues affecting circadian rhythm"
+      },
+      "age_groups_affected": [
+        "4-11 months",
+        "12-18 months",
+        "18-24 months"
+      ],
+      "solutions": {
+        "immediate": [
+          {
+            "step": 1,
+            "action": "Optimize sleep environment",
+            "details": [
+              "Eliminate/limit light exposure (use red bulb night light if needed)",
+              "Ensure appropriate temperature (neck should feel warm, not cold or sweaty)"
+            ]
+          },
+          {
+            "step": 2,
+            "action": "Rule out overtiredness",
+            "details": [
+              "Assess if child wakes rested and is generally happy throughout the day",
+              "If overtired, temporarily reduce wake windows between naps",
+              "Consider using motion or contact naps to help lengthen naps while catching up on sleep"
+            ]
+          }
+        ],
+        "long_term": [
+          {
+            "step": 3,
+            "action": "Review sleep needs vs. expectations",
+            "details": [
+              "Track 24-hour sleep totals for several days to determine true sleep needs",
+              "Compare actual sleep time to scheduled sleep time",
+              "Calculate the difference between expected and actual sleep totals"
+            ]
+          },
+          {
+            "step": 4,
+            "action": "Add wakeful time to the day - three approaches:",
+            "approaches": [
+              {
+                "name": "Distribute wakeful time",
+                "description": "Gradually extend each wake window by 30-45 minutes"
+              },
+              {
+                "name": "Shorten naps",
+                "description": "Reduce daytime sleep to increase nighttime sleep pressure"
+              },
+              {
+                "name": "Shorten the night",
+                "description": "Gradually move bedtime later and wake time earlier in 15-minute increments"
+              }
+            ]
+          }
+        ],
+        "fine_tuning": [
+          "After split night resolves, experiment with extending night sleep by 15-minute increments",
+          "If split night returns, revert to the longest night without a split night"
+        ]
+      },
+      "related_problems": [
+        "overtired",
+        "undertired",
+        "early_rising"
+      ]
+    },
+    "early_rising": {
+      "definition": "Consistent waking before desired wake time (typically before 6 AM)",
+      "symptoms": [
+        "Waking before 6 AM consistently",
+        "Ready to start the day upon waking",
+        "Cannot be resettled back to sleep"
+      ],
+      "causes": {
+        "environmental": "Environmental factors (light, noise, temperature)",
+        "bedtime_timing": "Bedtime too early for child's sleep needs",
+        "circadian": "Circadian rhythm set too early",
+        "overtiredness": "Overtiredness leading to early morning cortisol spike"
+      },
+      "age_groups_affected": [
+        "all"
+      ],
+      "solutions": {
+        "immediate": [
+          "Optimize sleep environment (blackout curtains, white noise)",
+          "Ensure appropriate daytime naps to prevent overtiredness"
+        ],
+        "long_term": [
+          "Gradually shift bedtime later by 15-minute increments",
+          "Establish a consistent wake time and morning routine",
+          "Consider wake-to-sleep method for persistent early risers"
+        ]
+      },
+      "related_problems": [
+        "split_nights",
+        "overtired",
+        "false_starts"
+      ]
+    },
+    "false_starts": {
+      "definition": "When a baby wakes 30-45 minutes after being put down for bedtime. Occurs during the transition from light to deep sleep",
+      "symptoms": [
+        "Waking 30-45 minutes after bedtime",
+        "Difficulty settling back to sleep",
+        "May seem fully awake or distressed"
+      ],
+      "causes": {
+        "overtiredness": "Overtiredness: Adjust last wake window to be appropriate for age",
+        "undertiredness": "Undertiredness: Extend last wake window by 15-30 minutes",
+        "sleep_associations": "Sleep associations: Review bedtime routine and sleep onset associations",
+        "environmental": "Environmental factors: Check for disruptive elements (noise, light, temperature)"
+      },
+      "age_groups_affected": [
+        "0-3 months",
+        "4-6 months",
+        "6-12 months"
+      ],
+      "solutions": {
+        "immediate": [
+          "Check wake window before bedtime",
+          "Ensure sleep environment is optimal",
+          "Review bedtime routine for overstimulation"
+        ],
+        "long_term": [
+          "Adjust last wake window based on age and sleepy cues",
+          "Create consistent calming bedtime routine",
+          "Address any sleep associations that require intervention"
+        ]
+      },
+      "related_problems": [
+        "overtired",
+        "undertired",
+        "sleep_associations"
+      ]
+    },
+    "short_naps": {
+      "definition": "Naps lasting only one sleep cycle (30-45 minutes)",
+      "symptoms": [
+        "Consistently waking after 30-45 minutes",
+        "May wake happy or grumpy",
+        "Unable to resettle for longer nap"
+      ],
+      "causes": {
+        "developmental": "Normal at certain ages",
+        "sleep_pressure": "Not enough sleep pressure built up",
+        "overtired": "Excess cortisol preventing deep sleep",
+        "environment": "Too bright, loud, or stimulating"
+      },
+      "age_groups_affected": [
+        "all"
+      ],
+      "solutions": {
+        "immediate": [
+          "Check wake windows are age-appropriate",
+          "Ensure dark, cool sleep environment",
+          "Try resettling for 10-15 minutes"
+        ],
+        "long_term": [
+          "Adjust wake windows",
+          "Consider nap timing in relation to feeds",
+          "Accept if baby wakes happy and well-rested"
+        ]
+      },
+      "related_problems": [
+        "overtired",
+        "undertired",
+        "nap_transitions"
+      ]
+    },
+    "night_wakings": {
+      "definition": "Waking during the night outside of expected feeding times",
+      "symptoms": [
+        "Multiple wakings per night",
+        "Difficulty resettling without intervention",
+        "Wakings at consistent times"
+      ],
+      "causes": {
+        "hunger": "Legitimate need for feeding",
+        "sleep_associations": "Requires same conditions to resettle",
+        "overtired": "Fragmented sleep from exhaustion",
+        "undertired": "Not enough sleep pressure",
+        "discomfort": "Teething, illness, temperature",
+        "developmental": "Learning new skills"
+      },
+      "age_expectations": {
+        "0-3_months": "Normal to wake every 2-3 hours",
+        "4-6_months": "1-2 wakings common",
+        "6-12_months": "0-1 waking typical",
+        "12+_months": "Should sleep through"
+      },
+      "solutions": {
+        "immediate": [
+          "Rule out hunger, discomfort, illness",
+          "Check sleep environment",
+          "Consistent response to wakings"
+        ],
+        "long_term": [
+          "Address sleep associations",
+          "Ensure appropriate daytime sleep",
+          "Consider sleep training if age-appropriate"
+        ]
+      },
+      "related_problems": [
+        "sleep_associations",
+        "night_weaning",
+        "sleep_training"
+      ]
+    },
+    "nap_refusal": {
+      "definition": "Resistance or inability to fall asleep at nap time",
+      "symptoms": [
+        "Fighting sleep despite tired signs",
+        "Taking over 30 minutes to fall asleep",
+        "Skipping naps entirely"
+      ],
+      "causes": {
+        "not_tired_enough": "Wake window too short",
+        "overtired": "Missed sleep window",
+        "developmental": "Nap transition period",
+        "environment": "Too stimulating or bright",
+        "schedule_needs_adjustment": "Nap timing off"
+      },
+      "solutions": {
+        "immediate": [
+          "Adjust wake windows",
+          "Ensure consistent nap routine",
+          "Create optimal sleep environment"
+        ],
+        "long_term": [
+          "Review overall schedule",
+          "Consider if ready for nap transition",
+          "Be consistent with nap timing"
+        ]
+      },
+      "related_problems": [
+        "nap_transitions",
+        "overtired",
+        "schedule_adjustment"
+      ]
+    }
+  },
+  "concepts": {
+    "active_sleep_newborns": {
+      "definition": "A normal sleep state in newborns characterized by rapid eye movements, facial expressions, sounds, and body movements during sleep",
+      "characteristics": [
+        "Eyes moving under closed eyelids",
+        "Facial expressions including smiles, frowns, grimaces",
+        "Irregular breathing patterns",
+        "Small body movements and twitches",
+        "Making sounds like grunts, squeaks, or cries"
+      ],
+      "importance": "Active sleep comprises about 50% of newborn sleep and is crucial for brain development",
+      "parent_guidance": [
+        "Don't rush to intervene during active sleep",
+        "Wait and observe before picking up baby",
+        "Active sleep can be mistaken for waking",
+        "Normal part of infant sleep cycles"
+      ],
+      "age_progression": "Active sleep decreases as baby grows, becoming more like adult REM sleep by 6 months"
+    },
+    "sleepy_cues": {
+      "early_cues": {
+        "description": "First signs that baby is getting tired",
+        "signs": [
+          "Decreased activity",
+          "Slower movements",
+          "Less vocal",
+          "Staring or glazed look",
+          "Less engaged with surroundings",
+          "Reddening of eyebrows or around eyes"
+        ],
+        "action": "Begin preparing for sleep routine"
+      },
+      "mid_cues": {
+        "description": "Clear signs that sleep window is optimal",
+        "signs": [
+          "Rubbing eyes",
+          "Pulling ears",
+          "Yawning",
+          "Seeking comfort items",
+          "Becoming clingy"
+        ],
+        "action": "Start sleep routine immediately"
+      },
+      "late_cues": {
+        "description": "Signs of overtiredness",
+        "signs": [
+          "Crying",
+          "Arching back",
+          "Becoming rigid or difficult to calm",
+          "Hyperactivity or 'second wind'",
+          "Difficulty settling"
+        ],
+        "action": "May need additional calming before sleep"
+      },
+      "age_considerations": {
+        "newborns": "Cues may be subtle, watch for decreased alertness",
+        "3-6_months": "Cues become more obvious and predictable",
+        "6_months_plus": "May fight sleep despite showing cues"
+      }
+    },
+    "contact_naps": {
+      "definition": "Contact naps are periods when babies sleep while being held or in close physical contact with a caregiver. These can be beneficial during certain developmental phases or when helping an overtired baby catch up on sleep.",
+      "key_points": [
+        "Can help extend nap duration for babies who struggle with independent sleep",
+        "Useful as a temporary solution during developmental leaps or illness",
+        "May be necessary for some high-need or sensitive babies",
+        "Should be balanced with opportunities for independent sleep when appropriate"
+      ]
+    },
+    "development_and_sleep": {
+      "description": "Sleep disruptions often coincide with developmental milestones as babies' brains process new skills.",
+      "common_patterns": [
+        "Sleep disruptions during motor skill development (rolling, crawling, standing, walking)",
+        "Wakeful periods when practicing new cognitive or language skills",
+        "Temporary disruptions usually resolve within 2-3 weeks of mastering the skill",
+        "Providing extra daytime practice of new skills can reduce nighttime practice"
+      ]
+    },
+    "ideal_sleep_environment": {
+      "darkness": "Room should be very dark (8-10/10 darkness level)",
+      "sound": "Consistent white/pink noise at safe volume (50-60 dB, 1.5+ meters from crib)",
+      "temperature": "68-72\u00b0F (20-22\u00b0C) is ideal for most babies",
+      "clothing": "Appropriate layers based on room temperature (check neck for comfort)",
+      "safety": "Follow safe sleep guidelines (firm mattress, no loose bedding)"
+    },
+    "safe_sleep_guidelines": {
+      "essential_practices": [
+        "Always place baby on back to sleep (Back to Sleep)",
+        "Use firm, flat sleep surface with fitted sheet only",
+        "Room-sharing (not bed-sharing) for first 6-12 months",
+        "No soft objects, loose bedding, bumpers, or positioning devices in sleep space",
+        "Maintain smoke-free environment",
+        "Offer pacifier at sleep times (if breastfeeding, wait until well-established)",
+        "Avoid overheating; check neck for comfort",
+        "Regular prenatal and infant healthcare visits",
+        "Consider breastfeeding, which is associated with reduced SIDS risk"
+      ]
+    },
+    "naps_on_the_go": {
+      "definition": "Naps taken outside of usual sleep environment",
+      "when_appropriate": [
+        "Occasional necessity for family activities",
+        "One nap of the day for flexibility",
+        "During travel or transitions"
+      ],
+      "best_practices": [
+        "Prioritize first nap at home when possible",
+        "Recreate sleep environment (white noise app, shade)",
+        "Time it with natural sleep window",
+        "Lower expectations for length"
+      ],
+      "location_options": {
+        "stroller": "Use shade, white noise, familiar blanket",
+        "car_seat": "Safe only when car is moving, never stationary",
+        "carrier": "Good for younger babies who like contact",
+        "portable_crib": "Best option for maintaining sleep quality"
+      },
+      "age_considerations": {
+        "0_6_months": "More flexible, can sleep anywhere",
+        "6_12_months": "May need darker, quieter environment",
+        "12_plus_months": "Often resist on-the-go naps"
+      }
+    },
+    "travel_sleep_adjustments": {
+      "preparation": {
+        "1_week_before": "Gradually shift schedule by 15-30 minutes daily",
+        "pack_essentials": [
+          "Portable white noise",
+          "Blackout solutions (trash bags, tape)",
+          "Familiar sleep items",
+          "Comfort objects"
+        ]
+      },
+      "time_zone_strategies": {
+        "1_3_hours": "Adjust immediately to new time zone",
+        "4_plus_hours": {
+          "option_1": "Gradual adjustment over several days",
+          "option_2": "Split difference for short trips",
+          "option_3": "Immediate adjustment with extra support"
+        }
+      },
+      "during_travel": {
+        "maintain_routines": "Keep sleep routines as consistent as possible",
+        "recreate_environment": "Make sleep space dark, cool, and familiar",
+        "flexible_expectations": "Accept that sleep may be disrupted",
+        "sunlight_exposure": "Use natural light to help adjustment"
+      },
+      "return_home": [
+        "Resume normal schedule immediately",
+        "Extra patience for few days",
+        "Early bedtime if needed to catch up"
+      ]
+    }
+  },
+  "sleep_methods": {
+    "sleep_training": {
+      "definition": "It's simply helping your baby learn to fall asleep independently\u2014either at bedtime or after nighttime waking. By encouraging self-soothing, you're giving your little one a valuable developmental skill\u2014and yourself a chance to catch up on rest.",
+      "safety": "Absolutely. Decades of research show no long-term harm from sleep training. In fact, it often leads to: Better mood for parents, Improved sleep quality for infants, Stronger parent\u2013baby bonds",
+      "when_to_start": "Most babies are ready around 4-5 months old calculating from their due date. when night feedings often taper off and sleep cycles and circadian rhythms begin to mature. Some start closer to 6 months; avoid trying it with newborns, since they need frequent feeds and can't yet self-soothe.",
+      "methods": {
+        "cry_it_out": {
+          "also_known_as": "Extinction",
+          "description": "Put your baby down awake after a final feed, then wait until morning or their next scheduled feeding before intervening\u2014no picking up. Consistency is key, and results often come fast (with tough first nights)."
+        },
+        "ferber": {
+          "also_known_as": "Graduated Check-Ins",
+          "description": "Lay baby down drowsy but awake. Leave the room, then return at increasing intervals (e.g., 3, 5, 10 minutes) for a brief reassurance\u2014without picking them up."
+        },
+        "chair": {
+          "also_known_as": "Camping Out",
+          "description": "Sit by the crib until sleep, returning if your baby fusses. Gradually move farther from the crib each night until you're out of the room."
+        },
+        "pick_up_put_down": {
+          "description": "Offer physical comfort by briefly picking up to soothe, then placing back in the crib. It's slower but can feel gentler."
+        },
+        "bedtime_fading": {
+          "description": "Shift bedtime by 15 minutes each night to match your baby's natural rhythm, then combine with other methods to reinforce self-soothing."
+        }
+      },
+      "night_weaning_vs_sleep_training": "Night weaning focuses on daytime feeds so that overnight isn't about hunger. You can night-wean and sleep train together\u2014sometimes, teaching self-soothing naturally leads to fewer night feeds.",
+      "tips_for_success": [
+        "Catch sleep cues. Yawns, eye-rubbing and listlessness signal it's time to start your routine.",
+        "Build a bedtime ritual. A consistent sequence\u2014feed, bath, book, cuddle\u2014helps set the mood for sleep.",
+        "Avoid overreacting to every peep. Give space to practice new skills.",
+        "Be flexible. If one method isn't working after a week, swap tactics or blend techniques.",
+        "Separate self-soothing from through-the-night sleep. Learning to self-soothe doesn't guarantee uninterrupted sleep, but it equips your baby to fall back asleep on their own.",
+        "Trust yourself. Confident caregivers help babies feel secure. And if questions arise, touch base with your pediatrician."
+      ]
+    },
+    "night_weaning": {
+      "readiness_indicators": [
+        "Baby is at least 6 months old (ideally 9-12 months)",
+        "Gaining weight appropriately and getting adequate daytime nutrition",
+        "Consuming solid foods well during the day",
+        "No medical conditions requiring night feeds"
+      ],
+      "gradual_approach": [
+        "Track current feeding patterns to identify patterns",
+        "Gradually reduce duration of feeds by 2-3 minutes every few nights",
+        "Focus on reducing/eliminating one feed at a time (usually the first night feed first)",
+        "Ensure adequate daytime calories and hydration",
+        "Consider alternative soothing methods (patting, shushing)"
+      ]
+    },
+    "sleep_associations": {
+      "definition": "Conditions baby associates with falling asleep",
+      "types": {
+        "external": "External associations: Require caregiver assistance (rocking, feeding, holding)",
+        "internal": "Internal associations: Child can control themselves (thumb-sucking, self-soothing)"
+      },
+      "transition_approaches": [
+        "Establish solid bedtime routine signaling sleep time",
+        "Implement partial change to sleep onset association first",
+        "Use gradual withdrawal methods (sitting beside crib, gradually moving chair)",
+        "Try 'fading' techniques (gradually reducing intensity of assistance)",
+        "Introduce transitional objects for older babies (comfort item)",
+        "Be consistent and patient through the transition"
+      ]
+    }
+  },
+  "developmental_milestones": {
+    "sleep_regressions": {
+      "4_month": {
+        "timing": "3.5-5 months",
+        "duration": "2-6 weeks",
+        "causes": [
+          "Major sleep cycle reorganization",
+          "Increased environmental awareness",
+          "Sleep cycles lengthening to 90-120 minutes"
+        ],
+        "management": [
+          "Consider gentle sleep training",
+          "Maintain consistent routines",
+          "May need to adjust wake windows"
+        ]
+      },
+      "6_month": {
+        "definition": "A temporary disruption in sleep patterns around 6 months of age",
+        "duration": "2-6 weeks typically",
+        "causes": [
+          "Major developmental leaps",
+          "Learning to sit up independently",
+          "Increased awareness of surroundings",
+          "Separation anxiety beginning",
+          "Teething often coincides"
+        ],
+        "signs": [
+          "Increased night wakings",
+          "Shorter naps",
+          "Difficulty falling asleep",
+          "More clingy during day",
+          "Changes in appetite"
+        ],
+        "solutions": {
+          "maintain_routine": "Keep consistent sleep times and routines",
+          "practice_skills": "Allow plenty of sitting practice during day",
+          "comfort_measures": "Offer extra comfort without creating new sleep associations",
+          "temporary_adjustments": "May need slightly earlier bedtime if overtired",
+          "patience": "Remember this is temporary and developmental"
+        }
+      },
+      "8_10_month": {
+        "definition": "Sleep disruption occurring between 8-10 months",
+        "causes": [
+          "Learning to crawl and pull to stand",
+          "Major cognitive developments",
+          "Understanding object permanence",
+          "Peak separation anxiety",
+          "Possible nap transition (3 to 2 naps)"
+        ],
+        "unique_challenges": [
+          "Baby practicing standing in crib",
+          "Difficulty settling due to new mobility",
+          "Increased protesting at bedtime",
+          "May need to teach how to get down from standing"
+        ],
+        "solutions": {
+          "crib_practice": "Practice getting up and down during day",
+          "consistent_response": "Lay baby back down calmly and consistently",
+          "separation_games": "Play peek-a-boo and hiding games during day",
+          "maintain_boundaries": "Stay consistent with sleep expectations"
+        }
+      },
+      "12_month": {
+        "timing": "11-13 months",
+        "duration": "1-4 weeks",
+        "causes": [
+          "Learning to walk",
+          "Increased independence desires",
+          "Possible nap transition preparation",
+          "First birthday developmental leap"
+        ],
+        "management": [
+          "Extra patience with new skills",
+          "Maintain firm boundaries",
+          "Consider if ready for 2-to-1 nap transition"
+        ]
+      },
+      "18_month": {
+        "timing": "17-19 months",
+        "duration": "2-6 weeks",
+        "causes": [
+          "Language explosion",
+          "Increased autonomy and opinions",
+          "Molars often coming in",
+          "Separation anxiety peak"
+        ],
+        "management": [
+          "Offer choices within boundaries",
+          "Extra comfort for teething",
+          "Consistent, calm responses"
+        ]
+      }
+    },
+    "nap_transitions": {
+      "4_to_3_naps": {
+        "typical_age": "4-5 months",
+        "signs": [
+          "Fighting the 4th nap",
+          "Bedtime getting too late",
+          "Longer wake windows tolerated"
+        ],
+        "process": "Drop the late afternoon nap gradually"
+      },
+      "3_to_2_naps": {
+        "typical_age": "6-8 months",
+        "signs": [
+          "Fighting the 3rd nap",
+          "Third nap pushing bedtime past 8 PM",
+          "Extending wake windows naturally"
+        ],
+        "process": [
+          "Gradually extend wake windows",
+          "May have rough patch of early bedtimes",
+          "Usually takes 1-2 weeks to adjust"
+        ]
+      },
+      "2_to_1_nap": {
+        "typical_age": "13-18 months",
+        "signs": [
+          "Consistently refusing one nap",
+          "Taking very long to fall asleep",
+          "Naps interfering with bedtime"
+        ],
+        "process": [
+          "Gradually push morning nap later",
+          "May need very early bedtime initially",
+          "Can take 2-4 weeks to fully adjust"
+        ]
+      }
+    }
+  },
+  "age_specific_data": {
+    "wake_windows": {
+      "0-3 months": {
+        "naps": "4-5+ naps",
+        "wake_window": "45-90 minutes"
+      },
+      "4 months": {
+        "naps": "3-6 naps",
+        "wake_window": "75-105 minutes"
+      },
+      "5 months": {
+        "naps": "3-4 naps",
+        "wake_window": "90-120 minutes"
+      },
+      "6 months": {
+        "naps": "3 naps",
+        "wake_window": "120-150 minutes"
+      },
+      "7 months": {
+        "naps": "2-3 naps",
+        "wake_window": "135-165 minutes"
+      },
+      "8 months": {
+        "naps": "2-3 naps",
+        "wake_window": "150-180 minutes"
+      },
+      "9 months": {
+        "naps": "2-3 naps",
+        "wake_window": "165-210 minutes"
+      },
+      "10-12 months": {
+        "naps": "2 naps",
+        "wake_window": "180-240 minutes"
+      },
+      "12-15 months": {
+        "naps": "1-2 naps",
+        "wake_window": "180-270 minutes"
+      },
+      "15-18 months": {
+        "naps": "1-2 naps",
+        "wake_window": "270-360 minutes"
+      },
+      "18-24 months": {
+        "naps": "1 nap",
+        "wake_window": "270-360 minutes"
+      },
+      "24+ months": {
+        "naps": "1 nap",
+        "wake_window": "330-420 minutes"
+      }
+    },
+    "schedules": {
+      "1_month": {
+        "overview": "At 1 month, babies are still adjusting to life outside the womb",
+        "total_sleep": "15-17 hours in 24 hours",
+        "day_sleep": "8-9 hours across multiple naps",
+        "night_sleep": "8-9 hours with frequent wakings",
+        "wake_windows": "45-60 minutes",
+        "feeding": "Every 2-3 hours around the clock",
+        "schedule_flexibility": "No set schedule - follow baby's cues",
+        "key_focus": [
+          "Safe sleep environment",
+          "Day/night differentiation",
+          "Feeding on demand",
+          "Bonding and attachment"
+        ]
+      },
+      "2_months": {
+        "overview": "Patterns begin to emerge but flexibility is still key",
+        "total_sleep": "14-17 hours in 24 hours",
+        "day_sleep": "6-8 hours across 4-5 naps",
+        "night_sleep": "8-10 hours with 2-3 wakings",
+        "wake_windows": "60-90 minutes",
+        "feeding": "Every 2.5-3.5 hours",
+        "longest_stretch": "3-5 hours at night",
+        "emerging_patterns": [
+          "Longer sleep stretches at night",
+          "More alert periods during day",
+          "Beginning of social smiles"
+        ]
+      },
+      "3_months": {
+        "overview": "More predictable patterns emerging",
+        "total_sleep": "14-16 hours in 24 hours",
+        "day_sleep": "4-6 hours across 3-4 naps",
+        "night_sleep": "9-11 hours with 1-2 wakings",
+        "wake_windows": "75-105 minutes",
+        "feeding": "Every 3-4 hours",
+        "bedtime": "May start to establish between 7-9 PM",
+        "developmental_notes": [
+          "Circadian rhythm developing",
+          "May show readiness for more routine",
+          "Still too young for sleep training"
+        ]
+      },
+      "4_months": {
+        "total_sleep": "12-16 hours",
+        "night_sleep": "10-12 hours with 0-2 feeds",
+        "day_sleep": "3-5 hours across 3-4 naps",
+        "wake_windows": "75-105 minutes",
+        "notes": "Major sleep development period"
+      },
+      "5_months": {
+        "total_sleep": "12-16 hours",
+        "night_sleep": "10-12 hours with 0-1 feed",
+        "day_sleep": "3-4 hours across 3 naps",
+        "wake_windows": "90-120 minutes",
+        "notes": "May be ready for sleep training"
+      },
+      "6_months": {
+        "total_sleep": "12-16 hours",
+        "night_sleep": "11-12 hours",
+        "day_sleep": "2.5-3.5 hours across 2-3 naps",
+        "wake_windows": "120-150 minutes",
+        "notes": "Many babies ready to night wean"
+      },
+      "7_10_months": {
+        "total_sleep": "12-16 hours",
+        "night_sleep": "11-12 hours",
+        "day_sleep": "2-3 hours across 2 naps",
+        "wake_windows": "135-210 minutes",
+        "sample_schedule": {
+          "wake": "6:30-7:00 AM",
+          "nap1": "9:00-10:30 AM",
+          "nap2": "2:00-3:30 PM",
+          "bedtime": "7:00-7:30 PM"
+        }
+      },
+      "11_14_months": {
+        "total_sleep": "11-14 hours",
+        "night_sleep": "11-12 hours",
+        "day_sleep": "2-3 hours across 2 naps",
+        "wake_windows": "180-270 minutes",
+        "notes": "Some start 2-to-1 nap transition"
+      },
+      "15_24_months": {
+        "total_sleep": "11-14 hours",
+        "night_sleep": "11-12 hours",
+        "day_sleep": "1.5-3 hours in 1 nap",
+        "wake_windows": "270-360 minutes",
+        "sample_schedule": {
+          "wake": "6:30-7:00 AM",
+          "nap": "12:30-2:30 PM",
+          "bedtime": "7:00-8:00 PM"
+        }
+      },
+      "2_3_years": {
+        "total_sleep": "10-13 hours",
+        "night_sleep": "10-12 hours",
+        "day_sleep": "1-2 hours in 1 nap",
+        "notes": "Some drop nap by age 3"
+      }
+    }
+  },
+  "toddler_specific": {
+    "climbing_out_of_crib": {
+      "definition": "When toddler begins climbing or attempting to climb out of crib",
+      "typical_age": "18 months - 3 years",
+      "safety_concerns": [
+        "Risk of falls and injury",
+        "Nighttime wandering",
+        "Unsupervised access to house"
+      ],
+      "immediate_actions": [
+        "Lower mattress to lowest setting",
+        "Remove anything that can be used as step",
+        "Consider sleep sack to limit leg movement",
+        "Video monitor to watch for attempts"
+      ],
+      "transition_signs": [
+        "Consistently climbing out despite interventions",
+        "Height over 35 inches",
+        "Expressing interest in 'big kid bed'",
+        "Potty training readiness"
+      ],
+      "bed_transition_tips": [
+        "Make it exciting but not overwhelming",
+        "Maintain exact same bedtime routine",
+        "Use bed rails initially",
+        "Child-proof room completely",
+        "Be patient with adjustment period (2-4 weeks)"
+      ]
+    },
+    "bedtime_battles": {
+      "common_causes": [
+        "Testing boundaries",
+        "FOMO (fear of missing out)",
+        "Overtired or undertired",
+        "Big life changes",
+        "Developmental need for control"
+      ],
+      "strategies": [
+        "Consistent, calm bedtime routine",
+        "Offer limited choices",
+        "Use visual schedule or timer",
+        "Validate feelings while maintaining boundary",
+        "Consider OK to Wake clock"
+      ]
+    },
+    "nighttime_fears": {
+      "typical_onset": "2-4 years",
+      "management": [
+        "Validate without reinforcing fears",
+        "Monster spray or special stuffy",
+        "Night light if needed",
+        "Brief, boring check-ins",
+        "Address during daytime"
+      ]
+    }
+  },
+  "general_philosophy": {
+    "core_principles": [
+      "Recognize individual differences in sleep needs and temperament",
+      "Balance responsive parenting with healthy sleep habits",
+      "Use age-appropriate wake windows rather than fixed schedules",
+      "Consider developmental phases when addressing sleep challenges",
+      "Implement changes gradually and consistently",
+      "Prioritize safe sleep practices at all times"
+    ]
+  },
+  "relationships": {
+    "problem_relationships": {
+      "overtired": [
+        "false_starts",
+        "early_rising",
+        "split_nights",
+        "short_naps",
+        "night_wakings"
+      ],
+      "undertired": [
+        "split_nights",
+        "false_starts",
+        "bedtime_battles",
+        "early_rising"
+      ],
+      "sleep_associations": [
+        "night_wakings",
+        "short_naps",
+        "false_starts"
+      ],
+      "developmental_leaps": [
+        "sleep_regressions",
+        "night_wakings",
+        "nap_refusal"
+      ],
+      "nap_transitions": [
+        "early_rising",
+        "bedtime_battles",
+        "overtired"
+      ]
+    },
+    "solution_pathways": {
+      "check_wake_windows": [
+        "overtired",
+        "undertired",
+        "false_starts",
+        "short_naps"
+      ],
+      "optimize_environment": [
+        "early_rising",
+        "split_nights",
+        "short_naps",
+        "night_wakings"
+      ],
+      "sleep_training": [
+        "night_wakings",
+        "sleep_associations",
+        "false_starts"
+      ],
+      "schedule_adjustment": [
+        "split_nights",
+        "early_rising",
+        "nap_transitions"
+      ]
+    }
+  }
+}
